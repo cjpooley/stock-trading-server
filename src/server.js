@@ -3,6 +3,8 @@ import bodyParser from 'body-parser';
 import { db } from './db';
 import { routes } from './routes';
 
+const ALPHA_API_KEY = '01JE7HMQV0LU3CMA';
+
 const app = express();
 
 app.use(express.json());
